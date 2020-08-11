@@ -1,0 +1,124 @@
+﻿  AlphaTestEffect.cpp
+  BasicEffect.cpp
+  BasicPostProcess.cpp
+  BinaryReader.cpp
+  CommonStates.cpp
+  DDSTextureLoader.cpp
+  DescriptorHeap.cpp
+  DirectXHelpers.cpp
+  DualPostProcess.cpp
+  DualTextureEffect.cpp
+  EffectCommon.cpp
+  EffectFactory.cpp
+  EffectPipelineStateDescription.cpp
+  EffectTextureFactory.cpp
+  EnvironmentMapEffect.cpp
+  GamePad.cpp
+  GeometricPrimitive.cpp
+  Geometry.cpp
+  GraphicsMemory.cpp
+  Keyboard.cpp
+  Generating Code...
+  Compiling...
+  LinearAllocator.cpp
+  Model.cpp
+  ModelLoadSDKMESH.cpp
+  ModelLoadVBO.cpp
+  Mouse.cpp
+  NormalMapEffect.cpp
+  PBREffect.cpp
+  PBREffectFactory.cpp
+  pch.cpp
+  PrimitiveBatch.cpp
+  ResourceUploadBatch.cpp
+  ScreenGrab.cpp
+  SimpleMath.cpp
+  SkinnedEffect.cpp
+  SpriteBatch.cpp
+  SpriteFont.cpp
+  ToneMapPostProcess.cpp
+  VertexTypes.cpp
+  WICTextureLoader.cpp
+  pugixml.cpp
+  Generating Code...
+  Compiling...
+  Application.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  The contents of <filesystem> are only available with C++17 or later.
+D:\Programming\GitAhead\3D3-Project\src\Application\Application.cpp(10,10): fatal error C1083: Cannot open include file: 'AeonProfiler.h': No such file or directory
+  GpuResource.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(48,20): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(159,29): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  Material.cpp
+  PipelineState.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\AssetFiles\PipelineState.cpp(112,23): warning C4018: '<': signed/unsigned mismatch
+  Texture.cpp
+  Assetmanager.cpp
+  The contents of <filesystem> are only available with C++17 or later.
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(26,21): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(63,21): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(182,23): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,35): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,47): error C2039: 'directory_iterator': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\iostream(19): message : see declaration of 'std'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,77): error C3861: 'directory_iterator': identifier not found
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C3861: 'directory_iterator': identifier not found
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(254,2): error C2672: 'begin': no matching overloaded function found
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1903): message : see declaration of 'std::begin'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): message : With the following template arguments:
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): message : '_Container=unknown-type'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\initializer_list(57): message : see declaration of 'std::begin'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(254,2): error C2672: 'end': no matching overloaded function found
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1913): message : see declaration of 'std::end'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): message : With the following template arguments:
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): message : '_Container=unknown-type'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\initializer_list(63): message : see declaration of 'std::end'
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C3536: '<begin>$L0': cannot be used before it is initialized
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(253,2): error C3536: '<end>$L0': cannot be used before it is initialized
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(254,2): error C2100: illegal indirection
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(281,39): warning C4267: 'initializing': conversion from 'size_t' to 'int16_t', possible loss of data
+  MotherLoader.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(196,35): warning C4838: conversion from 'int' to 'SIZE_T' requires a narrowing conversion
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(367,70): warning C4244: 'argument': conversion from 'UINT64' to 'const uint32_t', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(567,39): warning C4267: 'initializing': conversion from 'size_t' to 'int16_t', possible loss of data
+  Time.cpp
+  Engine.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  Color.cpp
+  Light.cpp
+  ObjectManager.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\ObjectManager.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+  Prefab.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  PrefabHeapBlock.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(139,15): warning C4244: 'initializing': conversion from 'UINT64' to 'UINT', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(169,20): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(184,20): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(200,20): warning C4018: '<': signed/unsigned mismatch
+  PrefabInstance.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  Transform.cpp
+  Camera.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  CameraHandler.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Camera\CameraHandler.cpp(6,23): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Camera\CameraHandler.cpp(15,37): warning C4316: 'Camera': object allocated on the heap may not be aligned 16
+  Renderer.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(480,34): warning C4244: '=': conversion from 'FLOAT' to 'UINT64', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(481,35): warning C4244: '=': conversion from 'FLOAT' to 'UINT', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(661,40): warning C4244: '=': conversion from 'const UINT64' to 'UINT', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(700,61): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+D:\Programming\GitAhead\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(705,21): warning C4244: '+=': conversion from 'UINT64' to 'SIZE_T', possible loss of data
+  main.cpp
+D:\Programming\GitAhead\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.hpp(40,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...

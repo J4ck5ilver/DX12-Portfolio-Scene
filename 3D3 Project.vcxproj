@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{C9B7CBB7-E084-4126-BF53-7EA9C1C50E05}</ProjectGuid>
+    <RootNamespace>My3D3Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libaries\includes;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libaries\includes;$(SolutionDir)libaries\includes\AeonProfiler;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)libaries\includes;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)libaries\includes;$(SolutionDir)libaries\includes\AeonProfiler;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)libaries\libs\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/Gh /GH %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)libaries\libs\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc142-mt.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)libaries\libs\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/Gh /GH %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)libaries\libs\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc142-mt.lib;SDL2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="libaries\includes\DirectX12\AlphaTestEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\BasicEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\BasicPostProcess.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\BinaryReader.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\CommonStates.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\DDSTextureLoader.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\DescriptorHeap.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\DirectXHelpers.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\DualPostProcess.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\DualTextureEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\EffectCommon.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\EffectFactory.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\EffectPipelineStateDescription.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\EffectTextureFactory.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\EnvironmentMapEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\GamePad.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\GeometricPrimitive.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\Geometry.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\GraphicsMemory.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\Keyboard.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\LinearAllocator.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\Model.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\ModelLoadSDKMESH.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\ModelLoadVBO.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\Mouse.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\NormalMapEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\PBREffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\PBREffectFactory.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\pch.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\PrimitiveBatch.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\ResourceUploadBatch.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\ScreenGrab.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\SimpleMath.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\SkinnedEffect.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\SpriteBatch.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\SpriteFont.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\ToneMapPostProcess.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\VertexTypes.cpp" />
+    <ClCompile Include="libaries\includes\DirectX12\WICTextureLoader.cpp" />
+    <ClCompile Include="libaries\includes\PugiXML\pugixml.cpp" />
+    <ClCompile Include="src\Application\Application.cpp" />
+    <ClCompile Include="src\Application\LightBall.cpp" />
+    <ClCompile Include="src\Application\LightBallSpawner.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\AssetFiles\GpuResource.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\AssetFiles\Material.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\AssetFiles\PipelineState.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\AssetFiles\Texture.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\Assetmanager.cpp" />
+    <ClCompile Include="src\Engine\Assetmanager\MotherLoader.cpp" />
+    <ClCompile Include="src\Engine\Core\Becnhmarker.cpp" />
+    <ClCompile Include="src\Engine\Core\Time.cpp" />
+    <ClCompile Include="src\Engine\Engine.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\Color.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\Lights.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\LightsHeapBlock.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\ObjectManager.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\Prefab.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\PrefabHeapBlock.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\PrefabInstance.cpp" />
+    <ClCompile Include="src\Engine\ObjectManager\Transform.cpp" />
+    <ClCompile Include="src\Engine\RenderEngine\Camera\Camera.cpp" />
+    <ClCompile Include="src\Engine\RenderEngine\Camera\CameraHandler.cpp" />
+    <ClCompile Include="src\Engine\RenderEngine\Renderer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_PSAlphaTestEqNe.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_PSAlphaTestEqNeNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_PSAlphaTestLtGt.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_PSAlphaTestLtGtNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_VSAlphaTest.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_VSAlphaTestNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_VSAlphaTestVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\AlphaTestEffect_VSAlphaTestVcNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasic.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicPixelLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicPixelLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicTxNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicVertexLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicVertexLightingNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicVertexLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_PSBasicVertexLightingTxNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasic.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingTxVcBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicPixelLightingVcBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicTxNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicTxVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicTxVcNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVcNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingTxVcBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\BasicEffect_VSBasicVertexLightingVcBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_PSDualTexture.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_PSDualTextureNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_VSDualTexture.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_VSDualTextureNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_VSDualTextureVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\DualTextureEffect_VSDualTextureVcNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMap.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingFresnel.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingFresnelNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapPixelLightingNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpecular.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_PSEnvMapSpecularNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMap.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapFresnel.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapFresnelBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\EnvironmentMapEffect_VSEnvMapPixelLightingBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\GenerateMips_main.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoFogSpec.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_PSNormalPixelLightingTxNoSpec.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTx.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxNoSpec.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxNoSpecBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVc.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVcBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVcNoSpec.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\NormalMapEffect_VSNormalPixelLightingTxVcNoSpecBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_PSConstant.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_PSTextured.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_PSTexturedEmissive.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_PSTexturedEmissiveVelocity.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_PSTexturedVelocity.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_VSConstant.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_VSConstantBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_VSConstantVelocity.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PBREffect_VSConstantVelocityBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSBloomBlur.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSBloomCombine.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSBloomExtract.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSCopy.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSDownScale2x2.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSDownScale4x4.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSGaussianBlur5x5.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSMerge.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSMonochrome.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_PSSepia.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_VSQuad.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_VSQuadDual.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\PostProcess_VSQuadNoCB.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_PSSkinnedPixelLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_PSSkinnedVertexLighting.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_PSSkinnedVertexLightingNoFog.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingFourBones.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingFourBonesBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingOneBone.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingOneBoneBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingTwoBones.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedPixelLightingTwoBonesBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingFourBones.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingFourBonesBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingOneBone.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingOneBoneBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingTwoBones.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SkinnedEffect_VSSkinnedVertexLightingTwoBonesBn.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SpriteEffect_SpritePixelShader.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SpriteEffect_SpritePixelShaderHeap.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SpriteEffect_SpriteVertexShader.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\SpriteEffect_SpriteVertexShaderHeap.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSACESFilmic.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSACESFilmic_SRGB.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSCopy.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSHDR10.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSReinhard.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSReinhard_SRGB.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSSaturate.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PSSaturate_SRGB.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_PS_SRGB.inc" />
+    <None Include="libaries\includes\DirectX12\Shaders\Compiled\ToneMap_VSQuad.inc" />
+    <None Include="libaries\includes\DirectX12\SimpleMath.inl" />
+    <None Include="libaries\includes\DirectX12\TeapotData.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libaries\includes\DirectX12\AlignedNew.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Audio.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Bezier.h" />
+    <ClInclude Include="libaries\includes\DirectX12\BinaryReader.h" />
+    <ClInclude Include="libaries\includes\DirectX12\CommonStates.h" />
+    <ClInclude Include="libaries\includes\DirectX12\d3dx12.h" />
+    <ClInclude Include="libaries\includes\DirectX12\DDS.h" />
+    <ClInclude Include="libaries\includes\DirectX12\DDSTextureLoader.h" />
+    <ClInclude Include="libaries\includes\DirectX12\DemandCreate.h" />
+    <ClInclude Include="libaries\includes\DirectX12\DescriptorHeap.h" />
+    <ClInclude Include="libaries\includes\DirectX12\DirectXHelpers.h" />
+    <ClInclude Include="libaries\includes\DirectX12\EffectCommon.h" />
+    <ClInclude Include="libaries\includes\DirectX12\EffectPipelineStateDescription.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Effects.h" />
+    <ClInclude Include="libaries\includes\DirectX12\GamePad.h" />
+    <ClInclude Include="libaries\includes\DirectX12\GeometricPrimitive.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Geometry.h" />
+    <ClInclude Include="libaries\includes\DirectX12\GraphicsMemory.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Keyboard.h" />
+    <ClInclude Include="libaries\includes\DirectX12\LinearAllocator.h" />
+    <ClInclude Include="libaries\includes\DirectX12\LoaderHelpers.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Model.h" />
+    <ClInclude Include="libaries\includes\DirectX12\Mouse.h" />
+    <ClInclude Include="libaries\includes\DirectX12\pch.h" />
+    <ClInclude Include="libaries\includes\DirectX12\PlatformHelpers.h" />
+    <ClInclude Include="libaries\includes\DirectX12\PostProcess.h" />
+    <ClInclude Include="libaries\includes\DirectX12\PrimitiveBatch.h" />
+    <ClInclude Include="libaries\includes\DirectX12\RenderTargetState.h" />
+    <ClInclude Include="libaries\includes\DirectX12\ResourceUploadBatch.h" />
+    <ClInclude Include="libaries\includes\DirectX12\ScreenGrab.h" />
+    <ClInclude Include="libaries\includes\DirectX12\SDKMesh.h" />
+    <ClInclude Include="libaries\includes\DirectX12\SharedResourcePool.h" />
+    <ClInclude Include="libaries\includes\DirectX12\SimpleMath.h" />
+    <ClInclude Include="libaries\includes\DirectX12\SpriteBatch.h" />
+    <ClInclude Include="libaries\includes\DirectX12\SpriteFont.h" />
+    <ClInclude Include="libaries\includes\DirectX12\vbo.h" />
+    <ClInclude Include="libaries\includes\DirectX12\VertexTypes.h" />
+    <ClInclude Include="libaries\includes\DirectX12\WICTextureLoader.h" />
+    <ClInclude Include="libaries\includes\PugiXML\pugiconfig.hpp" />
+    <ClInclude Include="libaries\includes\PugiXML\pugixml.hpp" />
+    <ClInclude Include="libaries\includes\SDL\begin_code.h" />
+    <ClInclude Include="libaries\includes\SDL\close_code.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_assert.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_atomic.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_audio.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_bits.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_blendmode.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_clipboard.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_config.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_cpuinfo.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_egl.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_endian.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_error.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_events.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_filesystem.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_gamecontroller.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_gesture.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_haptic.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_hints.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_joystick.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_keyboard.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_keycode.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_loadso.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_log.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_main.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_messagebox.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_mouse.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_mutex.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_name.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengl.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles2.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles2_gl2.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles2_gl2ext.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles2_gl2platform.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengles2_khrplatform.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_opengl_glext.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_pixels.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_platform.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_power.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_quit.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_rect.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_render.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_revision.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_rwops.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_scancode.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_shape.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_stdinc.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_surface.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_system.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_syswm.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_assert.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_common.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_compare.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_crc32.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_font.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_fuzzer.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_harness.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_images.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_log.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_md5.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_test_random.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_thread.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_timer.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_touch.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_types.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_version.h" />
+    <ClInclude Include="libaries\includes\SDL\SDL_video.h" />
+    <ClInclude Include="src\Application\Application.hpp" />
+    <ClInclude Include="src\Application\LightBall.hpp" />
+    <ClInclude Include="src\Application\LightBallSpawner.h" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFile.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFiles\GpuResource.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFiles\Material.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFiles\Mesh.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFiles\PipelineState.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\AssetFiles\Texture.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\Assetmanager.hpp" />
+    <ClInclude Include="src\Engine\Assetmanager\MotherLoader.hpp" />
+    <ClInclude Include="src\Engine\Core\Becnhmarker.hpp" />
+    <ClInclude Include="src\Engine\Core\Time.hpp" />
+    <ClInclude Include="src\Engine\Engine.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\Color.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\Lights.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\LightsHeapBlock.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\ObjectManager.h" />
+    <ClInclude Include="src\Engine\ObjectManager\Prefab.h" />
+    <ClInclude Include="src\Engine\ObjectManager\PrefabHeapBlock.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\PrefabInstance.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\Transform.hpp" />
+    <ClInclude Include="src\Engine\ObjectManager\TripleLinkedList.hpp" />
+    <ClInclude Include="src\Engine\RenderEngine\Camera\Camera.hpp" />
+    <ClInclude Include="src\Engine\RenderEngine\Camera\CameraHandler.hpp" />
+    <ClInclude Include="src\Engine\RenderEngine\Renderer.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="assets\shaders\ComputeLight.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Compute</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\SecondPassFS.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
