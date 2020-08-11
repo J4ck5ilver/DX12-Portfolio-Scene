@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<materials>
+	<!-- Sphere -->
+	<material type="Sphere" diffuseTexture="RedPixel" normalTexture="FlatNormalMap" specularTexture="" shaderPipeLineState="1" />
+	<!-- Moon -->
+	<material type="Moon" diffuseTexture="Moon_Diff" normalTexture="Moon_Normal" specularTexture="" shaderPipeLineState="1" />
+	<!-- enter name -->
+	<material type="Asteroid" diffuseTexture="Asteroid1_BaseColor" normalTexture="Asteroid1_Normal" specularTexture="" shaderPipeLineState="1" />
+	<!-- enter name -->
+	
+	
+</materials>

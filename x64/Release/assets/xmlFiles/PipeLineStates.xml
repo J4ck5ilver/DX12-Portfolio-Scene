@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<pipeLineStates>
+	<!-- firstPass -->
+	<pipeLineState type="graphics" vertexShader="FirstPassVS" fragmentShader="FirstPassFS" pass="1" numberOfRTVs="4" topologyType="triangle" fillMode="solid" cullMode="none" depthBuffer="1"/>
+	
+	<!-- secondPass -->
+	<pipeLineState type="graphics" vertexShader="SecondPassVS" fragmentShader="SecondPassFS" pass="2" numberOfRTVs="1" topologyType="triangle" fillMode="solid" cullMode="none" depthBuffer="0"/>
+		
+	<!-- compute -->
+	<pipeLineState type="compute" computeShader="ComputeLight" pass="compute"/>
+	
+	<!-- Skybox -->
+	<pipeLineState type="graphics" vertexShader="SkyboxVS" fragmentShader="SkyboxFS" pass="3" numberOfRTVs="1" topologyType="triangle" fillMode="solid" cullMode="none" depthBuffer="1"/>
+	
+</pipeLineStates>

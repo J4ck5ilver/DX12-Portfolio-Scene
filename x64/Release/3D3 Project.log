@@ -1,0 +1,16 @@
+﻿  Renderer.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(172,85): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(184,38): warning C4552: '<': result of expression not used
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(294,61): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(294,119): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(950,35): warning C4244: '=': conversion from 'float' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(999,34): warning C4244: '=': conversion from 'FLOAT' to 'UINT64', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1000,35): warning C4244: '=': conversion from 'FLOAT' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1308,40): warning C4244: '=': conversion from 'const UINT64' to 'UINT', possible loss of data
+  Generating code
+  1 of 6795 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  3D3 Project.vcxproj -> D:\Prog\3D-Prog\DX12\3D3-Project\x64\Release\3D3 Project.exe

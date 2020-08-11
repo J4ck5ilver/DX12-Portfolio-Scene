@@ -1,0 +1,133 @@
+﻿  Application.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(44,180): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(82,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(266,11): warning C4189: 'test': local variable is initialized but not referenced
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(388,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(423,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(424,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(425,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(441,21): warning C4456: declaration of 'i' hides previous local declaration
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(357,20): message : see declaration of 'i'
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\Application.cpp(445,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  LightBall.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\LightBall.cpp(24,49): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\LightBall.cpp(42,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\LightBall.cpp(71,54): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  LightBallSpawner.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\LightBallSpawner.cpp(91,54): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Application\LightBallSpawner.cpp(85,8): warning C4189: 'div': local variable is initialized but not referenced
+  GpuResource.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(93,16): warning C4244: '=': conversion from 'SIZE_T' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.cpp(117,8): warning C4189: 'backBufferIndex': local variable is initialized but not referenced
+  Material.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  PipelineState.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+  Texture.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  Assetmanager.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(221,39): warning C4267: 'initializing': conversion from 'size_t' to 'int16_t', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(246,1): warning C4267: 'initializing': conversion from 'size_t' to 'int16_t', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(244): message : while compiling class template member function 'const void AssetFile<Mesh>::SetInfoFromPath(void) noexcept'
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(87): message : see reference to function template instantiation 'const void AssetFile<Mesh>::SetInfoFromPath(void) noexcept' being compiled
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(82): message : while compiling class template member function 'AssetFile<Mesh>::AssetFile(const std::string &) noexcept'
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(56): message : see reference to function template instantiation 'AssetFile<Mesh>::AssetFile(const std::string &) noexcept' being compiled
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\Assetmanager.cpp(52): message : see reference to class template instantiation 'AssetFile<Mesh>' being compiled
+  MotherLoader.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(195,35): warning C4838: conversion from 'int' to 'SIZE_T' requires a narrowing conversion
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(74,7): warning C4189: 'uvSize': local variable is initialized but not referenced
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(189,8): warning C4189: 'readRangeInBytes': local variable is initialized but not referenced
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(405,70): warning C4244: 'argument': conversion from 'UINT64' to 'const uint32_t', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(706,8): warning C4189: 'depthBuffer': local variable is initialized but not referenced
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(705,7): warning C4189: 'numberOfRTVs': local variable is initialized but not referenced
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\MotherLoader.cpp(783,39): warning C4267: 'initializing': conversion from 'size_t' to 'int16_t', possible loss of data
+  Engine.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+  Color.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  Lights.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\Lights.cpp(93,21): warning C4834: discarding return value of function with 'nodiscard' attribute
+  LightsHeapBlock.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\LightsHeapBlock.cpp(53,44): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\LightsHeapBlock.cpp(10,75): warning C4100: 'viewIndex': unreferenced formal parameter
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\LightsHeapBlock.cpp(66,20): warning C4244: 'initializing': conversion from 'UINT64' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\LightsHeapBlock.cpp(67,51): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
+  ObjectManager.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+  Prefab.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  PrefabHeapBlock.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\PrefabHeapBlock.cpp(163,15): warning C4244: 'initializing': conversion from 'UINT64' to 'UINT', possible loss of data
+  PrefabInstance.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+  Transform.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\ObjectManager\Transform.cpp(101,56): warning C4100: 'angle': unreferenced formal parameter
+  Camera.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(89,49): warning C4244: '=': conversion from 'int32_t' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(90,49): warning C4244: '=': conversion from 'int32_t' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(100,37): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(100,28): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(131,44): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.cpp(131,35): warning C4244: 'argument': conversion from 'int32_t' to 'float', possible loss of data
+  CameraHandler.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\CameraHandler.cpp(5,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(165): warning C4172: returning address of local variable or temporary: returnValue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFile.hpp(165): warning C4172: returning address of local variable or temporary: returnValue
+  Compiling...
+  Renderer.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(172,85): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(184,38): warning C4552: '<': result of expression not used
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(228,67): warning C4244: '=': conversion from 'UINT' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(294,61): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(294,119): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(887,77): warning C4244: '=': conversion from 'UINT' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(950,35): warning C4244: '=': conversion from 'float' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(988,74): warning C4244: '=': conversion from 'UINT' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(999,34): warning C4244: '=': conversion from 'FLOAT' to 'UINT64', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1000,35): warning C4244: '=': conversion from 'FLOAT' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1308,40): warning C4244: '=': conversion from 'const UINT64' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1602,67): warning C4244: '=': conversion from 'UINT' to 'UINT8', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1674): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1674,53): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1791): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1803): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1815): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1791,62): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1803,52): warning C4238: nonstandard extension used: class rvalue used as lvalue
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Renderer.cpp(1815,58): warning C4238: nonstandard extension used: class rvalue used as lvalue
+  main.cpp
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\Assetmanager\AssetFiles\GpuResource.hpp(75,1): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+D:\Prog\3D-Prog\DX12\3D3-Project\src\Engine\RenderEngine\Camera\Camera.hpp(113,18): warning C4324: 'Camera': structure was padded due to alignment specifier
+  Generating Code...
+  3D3 Project.vcxproj -> D:\Prog\3D-Prog\DX12\3D3-Project\x64\Debug\3D3 Project.exe

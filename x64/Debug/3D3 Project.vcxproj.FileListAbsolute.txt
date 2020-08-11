@@ -1,0 +1,2 @@
+D:\Prog\3D-Prog\DX12\3D3-Project\x64\Debug\3D3 Project.exe
+D:\Prog\3D-Prog\DX12\3D3-Project\x64\Debug\3D3 Project.pdb
