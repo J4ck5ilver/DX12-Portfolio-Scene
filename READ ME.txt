@@ -4,14 +4,15 @@ Made by:
 	Yousra Jlali
 
 Controls: 
-	Move with [W], [A], [S], [D].
 	Hold [Right Mouse Button] to look around.
+	Move with [W], [A], [S], [D].
+	Hold down [Shift] to move faster and use the scroll wheel to change the speed.
 	Reset view and position with [R].
 	Press [ESC] to shut down.
 
 
 
-This is a school assignment made by three student with the focus on learning DirectX 12 for a 3D course at BTH.
+This is a school assignment made by three students with the focus on learning DirectX 12 for a 3D course at BTH.
 
 Techniques:
 	Instancing
@@ -23,7 +24,7 @@ Techniques:
 
 
 Things that can be improved:
-	General code architecture in the renderer class (For example seperate the render class into more minor classes for a easier architectural overview).
+	General code architecture in the renderer class (For example seperate the render class into more minor classes for an easier architectural overview).
 	Scene update (Front end - Update of light cubes).
 	Better thread utilization.
 	Light culling. (There can be some light flicker in the scene due to this as well some visual light artifacts).
